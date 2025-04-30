@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-04-29")
+		(date "2025-04-30")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -882,7 +882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14f6bbe2-6681-4f13-b88f-391bd9705ee9")
-		(property "Reference" "R23"
+		(property "Reference" "R29"
 			(at 95.25 80.01 90)
 			(effects
 				(font
@@ -943,7 +943,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5a22cbe-b729-4e7e-adb7-cba874b6c2eb"
-					(reference "R23")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -959,7 +959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b820610-6871-46d3-8f04-789cc958f2d0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR047"
 			(at 199.39 104.14 0)
 			(effects
 				(font
@@ -1009,7 +1009,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5a22cbe-b729-4e7e-adb7-cba874b6c2eb"
-					(reference "#PWR038")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1024,7 +1024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "548d90bd-1dfc-40c9-9d58-b92cb64d6bbc")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 217.9319 84.8903 0)
 			(effects
 				(font
@@ -1079,7 +1079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95562"
+		(property "LCSC" ""
 			(at 210.82 88.9 0)
 			(effects
 				(font
@@ -1099,7 +1099,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5a22cbe-b729-4e7e-adb7-cba874b6c2eb"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1115,7 +1115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5761de0a-b196-4a67-9dd0-1231f4e1d37a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR048"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -1165,7 +1165,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5a22cbe-b729-4e7e-adb7-cba874b6c2eb"
-					(reference "#PWR039")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1180,7 +1180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba1d3632-ed02-4a58-92e2-461d5976aa19")
-		(property "Reference" "R24"
+		(property "Reference" "R30"
 			(at 129.286 96.266 0)
 			(effects
 				(font
@@ -1241,7 +1241,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5a22cbe-b729-4e7e-adb7-cba874b6c2eb"
-					(reference "R24")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1256,7 +1256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8806fac-5399-491f-9e99-cb8717f47c74")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 139.7 79.502 90)
 			(effects
 				(font
@@ -1310,7 +1310,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1711"
+		(property "LCSC" ""
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -1328,7 +1328,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5a22cbe-b729-4e7e-adb7-cba874b6c2eb"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1343,7 +1343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7d3fd33-1fe3-4e78-af2d-63d67f101350")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 113.919 96.4184 0)
 			(effects
 				(font
@@ -1397,7 +1397,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1711"
+		(property "LCSC" ""
 			(at 116.84 95.25 0)
 			(effects
 				(font
@@ -1415,7 +1415,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e5a22cbe-b729-4e7e-adb7-cba874b6c2eb"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)

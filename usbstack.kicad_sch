@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-04-29")
+		(date "2025-04-30")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -1612,7 +1612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdfeba4-77f8-4615-bb7d-148f012d4d0e")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 121.92 68.58 0)
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1710,7 +1710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14d74d73-55ac-43cc-b2e7-f8c098551b88")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 168.021 82.6516 0)
 			(effects
 				(font
@@ -1764,7 +1764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1713"
+		(property "LCSC" ""
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b236318-aee0-4986-9366-9f5de15741ac")
-		(property "Reference" "R27"
+		(property "Reference" "R33"
 			(at 145.542 104.14 90)
 			(effects
 				(font
@@ -1850,7 +1850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C352241"
+		(property "LCSC" ""
 			(at 143.51 104.14 0)
 			(effects
 				(font
@@ -1868,7 +1868,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "R27")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1883,7 +1883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33ecd39b-745b-4382-b20b-ac45fdbdaee7")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 179.451 82.6516 0)
 			(effects
 				(font
@@ -1937,7 +1937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1713"
+		(property "LCSC" ""
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -1955,7 +1955,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1971,7 +1971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "408ea11a-0d89-4d7a-a6a9-976b1fa2a90c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR051"
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -2021,7 +2021,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "#PWR041")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2036,7 +2036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c893dd3-6e15-40ff-afe6-95f360e54ae5")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR053"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -2086,7 +2086,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "#PWR043")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2102,7 +2102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "582ccf44-e6fd-42d8-be40-46a5dc3e829c")
-		(property "Reference" "R26"
+		(property "Reference" "R32"
 			(at 154.432 102.87 90)
 			(effects
 				(font
@@ -2154,7 +2154,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C352241"
+		(property "LCSC" ""
 			(at 152.4 102.87 0)
 			(effects
 				(font
@@ -2172,7 +2172,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "R26")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2188,7 +2188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7676a6d-a984-4841-9bd6-c39ae7845892")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR054"
 			(at 176.53 95.25 0)
 			(effects
 				(font
@@ -2238,7 +2238,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "#PWR044")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2254,7 +2254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db5e383d-fb6a-4607-9fda-3c40f76195a6")
-		(property "Reference" "R25"
+		(property "Reference" "R31"
 			(at 141.732 97.79 90)
 			(effects
 				(font
@@ -2306,7 +2306,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C352241"
+		(property "LCSC" ""
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -2324,7 +2324,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "R25")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2339,7 +2339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec15ef34-0187-4cea-8701-0eeb491628d5")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 142.24 78.74 0)
 			(effects
 				(font
@@ -2389,7 +2389,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "#PWR042")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2406,7 +2406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b9bdf3-09d1-480f-95c0-72aac9717088")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR055"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -2456,7 +2456,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "#PWR045")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2472,7 +2472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdb7960e-d102-40df-b235-dbb8261b5659")
-		(property "Reference" "R28"
+		(property "Reference" "R34"
 			(at 158.242 109.22 90)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C352241"
+		(property "LCSC" ""
 			(at 156.21 109.22 0)
 			(effects
 				(font
@@ -2542,7 +2542,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c9a29eca-a7d2-4be5-b06e-7fab67c7ffa0"
-					(reference "R28")
+					(reference "R34")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-04-29")
+		(date "2025-04-30")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -595,6 +595,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(no_connect
 		(at 137.16 91.44)
@@ -602,7 +727,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 137.16 86.36)
+			(xy 127 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251bb578-c9ae-4ce6-a7ba-567b9c95f4ac")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 137.16 86.36)
 		)
 		(stroke
 			(width 0)
@@ -720,17 +855,6 @@
 		)
 		(uuid "6b1bfd52-f0bd-4eb9-901b-f2c23382a5c0")
 	)
-	(hierarchical_label "ZVBUS"
-		(shape input)
-		(at 134.62 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b79ae41-e672-4178-9f05-2d0773aa3055")
-	)
 	(hierarchical_label "ZGPIO28"
 		(shape input)
 		(at 137.16 96.52 180)
@@ -842,6 +966,73 @@
 		(uuid "f4530561-17f6-46db-af96-48e83062c254")
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 127 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c86cd8b-b8c5-49aa-b5c9-876396a229cf")
+		(property "Reference" "#PWR049"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 123.19 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32cb0dac-88a5-40a4-b488-d03440c74b9d")
+		)
+		(instances
+			(project ""
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f571fbde-621b-4d45-898a-1392038e5d8f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FRANK:RP_2040_Zero")
 		(at 149.86 95.25 0)
 		(unit 1)
@@ -851,7 +1042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506f9b4e-3802-4d23-8d62-47ff0d8f9d00")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -976,7 +1167,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f571fbde-621b-4d45-898a-1392038e5d8f"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -985,7 +1176,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 137.16 88.9 270)
+		(at 127 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -993,8 +1184,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ec1fa8-205e-4048-80db-e6b1ef4be611")
-		(property "Reference" "#PWR040"
-			(at 130.81 88.9 0)
+		(property "Reference" "#PWR050"
+			(at 120.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 88.8999 90)
+			(at 123.19 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 88.9 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 88.9 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 88.9 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1235,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f571fbde-621b-4d45-898a-1392038e5d8f"
-					(reference "#PWR040")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

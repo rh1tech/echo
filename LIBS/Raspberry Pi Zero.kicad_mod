@@ -53,16 +53,6 @@
 	)
 	(attr through_hole exclude_from_pos_files)
 	(fp_line
-		(start -9 -11.25)
-		(end -9 -11)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "1c31e210-ab4a-4fd9-aad8-ef83c6328265")
-	)
-	(fp_line
 		(start -9 -9.05)
 		(end -9 -8.8)
 		(stroke
@@ -153,16 +143,6 @@
 		(uuid "2fc22cde-a14a-4ae8-a2af-b59d95e307fd")
 	)
 	(fp_line
-		(start -8.5 -11.75)
-		(end 8.5 -11.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d07292a9-a5ea-4360-a2e1-3ecbfc9cf467")
-	)
-	(fp_line
 		(start -8.5 11.75)
 		(end -6 11.75)
 		(stroke
@@ -181,16 +161,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "05a935f9-e83f-4385-83aa-d24db9d40f8c")
-	)
-	(fp_line
-		(start 9 -11.25)
-		(end 9 -11)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "128d3e5a-fcaf-48a1-8054-44f5549cf502")
 	)
 	(fp_line
 		(start 9 -9.075)
@@ -283,17 +253,6 @@
 		(uuid "3a8d2486-b7bd-41d7-ac55-4f811ce75724")
 	)
 	(fp_arc
-		(start -9 -11.25)
-		(mid -8.853553 -11.603553)
-		(end -8.5 -11.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7607c008-94f4-4a59-8712-ace77a60a77c")
-	)
-	(fp_arc
 		(start -8.5 11.75)
 		(mid -8.853553 11.603553)
 		(end -9 11.25)
@@ -303,17 +262,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "249f2710-a4e6-4364-946a-84130eab3043")
-	)
-	(fp_arc
-		(start 8.5 -11.75)
-		(mid 8.853553 -11.603553)
-		(end 9 -11.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "49b404df-b84a-4390-a2fd-da83d7de9e93")
 	)
 	(fp_arc
 		(start 9 11.25)
@@ -663,9 +611,9 @@
 		(uuid "8a11f86e-586e-495d-a11e-a1e650589934")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3D/RP2040-ZERO-WAVESHARE with headers.STEP"
+	(model "${KIPRJMOD}/3D/RP2040-ZERO-WAVESHARE without headers.STEP"
 		(offset
-			(xyz 0 0 4.54)
+			(xyz 0 0 0.04)
 		)
 		(scale
 			(xyz 1 1 1)

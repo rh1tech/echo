@@ -6,4 +6,5 @@
   (lib (name "TS3USB221RSER")(type "KiCad")(uri "${KIPRJMOD}/LIBS/TS3USB221RSER.kicad_sym")(options "")(descr ""))
   (lib (name "TS3USB221R")(type "KiCad")(uri "${KIPRJMOD}/LIBS/TS3USB221R.kicad_sym")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/LIBS/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74CBT3257CDR")(type "KiCad")(uri "${KIPRJMOD}/LIBS/SN74CBT3257CDR.kicad_sym")(options "")(descr ""))
 )
