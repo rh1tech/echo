@@ -6,7 +6,7 @@
 	(descr "SOP, 16 Pin (https://www.diodes.com/assets/Datasheets/PAM8403.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SOP SO")
 	(property "Reference" "REF**"
-		(at 0 -4.3 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "701c3337-95ae-4ab1-a2fe-e491053a0244")
 		(effects
@@ -20,6 +20,7 @@
 	(property "Value" "SOP-16"
 		(at 0 5.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "d1f0ec5c-3169-4d61-94eb-d481200fa8ae")
 		(effects
 			(font
@@ -194,17 +195,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "82d2fd36-6a46-4970-acd0-49efdebb237e")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "18f8e730-fe24-4521-a7e6-107c660c17b2")
-		(effects
-			(font
-				(size 0.98 0.98)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd roundrect
 		(at -2.5 -4.445)

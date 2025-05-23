@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|246930459|75640800|7a1de3e6-3752-411a-93f6-6f0e085f0c9a|812978f6-ab51-4838-a638-aeaa6c6a2a54",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|248450000|79450000|c185ef54-5ea9-4f08-94db-35a5a6d4edd5|812978f6-ab51-4838-a638-aeaa6c6a2a54",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|248450000|87450000|78acdf26-4c2f-47c1-9c7f-bbb5ef593b78|812978f6-ab51-4838-a638-aeaa6c6a2a54",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -995,7 +1008,7 @@
     ],
     [
       "3f0a2a41-81d6-4e1a-97c7-801d84353ad4",
-      "Gamepad 2"
+      "Gamepad 1"
     ],
     [
       "e32d59b7-03d3-4433-81ca-17cc94384711",
@@ -1023,7 +1036,7 @@
     ],
     [
       "d801ef4b-5000-44ae-a906-6ec32e379957",
-      "Gamepad 1"
+      "Gamepad 2"
     ],
     [
       "e0efa020-7652-4c53-946d-b42f9a8f5279",

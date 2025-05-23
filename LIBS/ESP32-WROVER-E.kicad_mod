@@ -213,18 +213,6 @@
 		(layer "F.CrtYd")
 		(uuid "002a7483-44fd-40d4-a278-378074743121")
 	)
-	(fp_text user "Antenna Area"
-		(at 0.5 -12.795 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4c63dc87-76af-4910-8c5f-4ad2245538c9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -557,15 +545,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-WROVER-E.STEP"
+	(model "${KIPRJMOD}/3D/ESP32-WROVER-B.STEP"
 		(offset
-			(xyz -9 -15.7 0)
+			(xyz 0 -0.4 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

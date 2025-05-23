@@ -6,7 +6,7 @@
 	(descr "SO, 8 Pin (https://www.ti.com/lit/ml/msop001a/msop001a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SO SO")
 	(property "Reference" "REF**"
-		(at 0 -3.9 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "5389870d-65f0-4915-8546-0b5c62e84820")
 		(effects
@@ -20,6 +20,7 @@
 	(property "Value" "SOIC-8"
 		(at 0 4.05 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "eabfb08b-b8bc-4b1b-a8d9-c1a7652fcade")
 		(effects
 			(font
@@ -194,17 +195,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "aa088fbc-71d3-476e-b2a4-94c0f6ef203e")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "d0a94319-b60d-4d8e-a956-1f81af62e4e2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd roundrect
 		(at -3.5 -1.905)

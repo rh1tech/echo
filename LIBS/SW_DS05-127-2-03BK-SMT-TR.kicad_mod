@@ -237,4 +237,15 @@
 		(uuid "d74201a9-5718-4197-b796-fdda9fd3d478")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/DS05-127-2-03BK-SMT-TR.step"
+		(offset
+			(xyz -9.7 -1.7 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

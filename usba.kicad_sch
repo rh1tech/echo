@@ -5,11 +5,11 @@
 	(uuid "67cf1f08-6464-4bf6-8393-a59ec2b79252")
 	(paper "A4")
 	(title_block
-		(title "Protea")
-		(date "2025-03-08")
-		(rev "2.03")
+		(title "${NAME}")
+		(date "2025-05-24")
+		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/echo")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A"

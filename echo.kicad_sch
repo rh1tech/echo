@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-04-30")
+		(date "2025-05-24")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -6188,7 +6188,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3f0a2a41-81d6-4e1a-97c7-801d84353ad4")
-		(property "Sheetname" "Gamepad 2"
+		(property "Sheetname" "Gamepad 1"
 			(at 86.36 137.7184 0)
 			(effects
 				(font
@@ -6903,7 +6903,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d801ef4b-5000-44ae-a906-6ec32e379957")
-		(property "Sheetname" "Gamepad 1"
+		(property "Sheetname" "Gamepad 2"
 			(at 86.36 111.0484 0)
 			(effects
 				(font
