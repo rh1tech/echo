@@ -60,15 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|246930459|75640800|7a1de3e6-3752-411a-93f6-6f0e085f0c9a|812978f6-ab51-4838-a638-aeaa6c6a2a54",
+          "courtyards_overlap|170657304|80355000|0631ae26-9ca7-4d91-b1e5-974490202c6b|cecdeff6-55c8-4524-852a-f3777667b26e",
           ""
         ],
         [
-          "npth_inside_courtyard|248450000|79450000|c185ef54-5ea9-4f08-94db-35a5a6d4edd5|812978f6-ab51-4838-a638-aeaa6c6a2a54",
+          "npth_inside_courtyard|172200000|84300000|ef67f1c8-d127-4895-b5db-df9e4ffc4b63|cecdeff6-55c8-4524-852a-f3777667b26e",
           ""
         ],
         [
-          "npth_inside_courtyard|248450000|87450000|78acdf26-4c2f-47c1-9c7f-bbb5ef593b78|812978f6-ab51-4838-a638-aeaa6c6a2a54",
+          "npth_inside_courtyard|172200000|92300000|feba170d-11fb-464c-b62d-f842b854021f|cecdeff6-55c8-4524-852a-f3777667b26e",
           ""
         ]
       ],
@@ -262,16 +262,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|2501900|558800|13486dca-7e69-4e38-824f-93cf9d170325|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2501900|584200|8cb2abda-b173-4fe2-a306-01539c9b75bb|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -977,7 +968,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./DOCS/1_01",
+    "plot_directory": "./DOCS/1_02",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -1008,7 +999,7 @@
     ],
     [
       "3f0a2a41-81d6-4e1a-97c7-801d84353ad4",
-      "Gamepad 1"
+      "Gamepad"
     ],
     [
       "e32d59b7-03d3-4433-81ca-17cc94384711",
@@ -1023,32 +1014,56 @@
       "SD Card"
     ],
     [
-      "e5a22cbe-b729-4e7e-adb7-cba874b6c2eb",
-      "Audio Out"
+      "ca9d4364-8864-42d1-89eb-99280f8ed67d",
+      "Shifter2"
     ],
     [
-      "e34a4249-0ad7-4a3c-afd0-1427c0cc75cf",
-      "USB A"
+      "f55e411b-ec4b-43e8-a550-3df1b34591c7",
+      "Shifter3"
+    ],
+    [
+      "e5a22cbe-b729-4e7e-adb7-cba874b6c2eb",
+      "Audio Out"
     ],
     [
       "e606b562-b239-4a02-9f90-df2cbefa5295",
       "Tape In"
     ],
     [
-      "d801ef4b-5000-44ae-a906-6ec32e379957",
-      "Gamepad 2"
-    ],
-    [
       "e0efa020-7652-4c53-946d-b42f9a8f5279",
       "RP2040"
     ],
     [
+      "4252f457-35b5-4f79-9561-ecba9662200c",
+      "Shifter4"
+    ],
+    [
+      "f647f155-e741-47c8-b191-8b4f6021bf8f",
+      "Shifter1"
+    ],
+    [
       "397326d1-5128-45c0-8ac3-92e3c508e8e0",
       "PS2 MS"
+    ],
+    [
+      "a27ed13f-fa40-49de-a786-9b8f7712cf33",
+      "USB Multiplexer 2"
+    ],
+    [
+      "c703e3e8-9da2-4a1d-9cec-42d7256180fc",
+      "USB Hub"
+    ],
+    [
+      "21f6980c-fc10-4480-8dc1-86a15fb6d0bb",
+      "USB Multiplexer 1"
+    ],
+    [
+      "5ab659b6-5cfd-43f0-936c-acd4035c4ca5",
+      "USB A"
     ]
   ],
   "text_variables": {
     "NAME": "Echo",
-    "VERSION": "1.01"
+    "VERSION": "1.02"
   }
 }
