@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-06-23")
+		(date "2025-07-20")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -1278,7 +1278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbf0e33d-0c18-496e-8fe6-ac1d91bf2cc0")
-		(property "Reference" "C35"
+		(property "Reference" "C34"
 			(at 183.388 108.204 90)
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c703e3e8-9da2-4a1d-9cec-42d7256180fc"
-					(reference "C35")
+					(reference "C34")
 					(unit 1)
 				)
 			)

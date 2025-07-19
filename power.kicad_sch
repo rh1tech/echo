@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-06-23")
+		(date "2025-07-20")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -3776,7 +3776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "361a7748-9221-4a23-be7c-7f59af04fe19")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 208.661 81.3816 0)
 			(effects
 				(font
@@ -3857,7 +3857,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4ea27ee4-1edc-4e10-ab5a-91b9933087c0"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4135,7 +4135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53cdcc4d-0086-4957-9bf0-d0ce437a4f29")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 174.371 82.6516 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4ea27ee4-1edc-4e10-ab5a-91b9933087c0"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
