@@ -6,362 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-07-20")
+		(date "2025-08-08")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
 	)
 	(lib_symbols
-		(symbol "Connector:Micro_SD_Card"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -16.51 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Micro_SD_Card"
-				(at 16.51 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 29.21 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micro SD Card Socket"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector SD microsd"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "microSD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Micro_SD_Card_0_1"
-				(polyline
-					(pts
-						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
-						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -7.62 8.255)
-					(end -5.08 6.985)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 5.715)
-					(end -5.08 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 3.175)
-					(end -5.08 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 0.635)
-					(end -5.08 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.905)
-					(end -5.08 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -4.445)
-					(end -5.08 -5.715)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -6.985)
-					(end -5.08 -8.255)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -9.525)
-					(end -5.08 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Micro_SD_Card_1_1"
-				(pin bidirectional line
-					(at -22.86 7.62 0)
-					(length 3.81)
-					(name "DAT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 5.08 0)
-					(length 3.81)
-					(name "DAT3/CD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 2.54 0)
-					(length 3.81)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 0 0)
-					(length 3.81)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -2.54 0)
-					(length 3.81)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 -5.08 0)
-					(length 3.81)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 3.81)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 3.81)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -15.24 180)
-					(length 3.81)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1178,24 +828,14 @@
 		)
 	)
 	(junction
-		(at 161.29 67.31)
+		(at 194.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39b037ee-ba89-4f55-8f6c-ccc4cf8a7876")
 	)
-	(junction
-		(at 152.4 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bd12127-45c4-4483-a949-9aab1dc7777a")
-	)
-	(no_connect
-		(at 214.63 123.19)
-		(uuid "106a45bc-2512-4054-a561-15c1ef5ffa95")
-	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 138.43 74.93)
+			(xy 161.29 97.79) (xy 171.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1205,17 +845,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 152.4 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "282b0dc5-85f2-4f52-9e38-11304efc1250")
-	)
-	(wire
-		(pts
-			(xy 128.27 77.47) (xy 138.43 77.47)
+			(xy 161.29 100.33) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 95.25 80.01)
+			(xy 118.11 102.87) (xy 128.27 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 95.25 77.47)
+			(xy 118.11 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1245,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 138.43 64.77)
+			(xy 161.29 87.63) (xy 171.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 67.31) (xy 167.64 67.31)
+			(xy 194.31 90.17) (xy 200.66 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1265,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 69.85) (xy 138.43 69.85)
+			(xy 161.29 92.71) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1275,17 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 107.95) (xy 152.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e89ee5b-2189-4eca-9a9a-fd76c8457d30")
-	)
-	(wire
-		(pts
-			(xy 85.09 72.39) (xy 95.25 72.39)
+			(xy 118.11 95.25) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1295,17 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 67.31) (xy 152.4 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7b281f-40a9-4815-8a2f-f14f387ff19a")
-	)
-	(wire
-		(pts
-			(xy 152.4 67.31) (xy 161.29 67.31)
+			(xy 161.29 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 95.25 74.93)
+			(xy 118.11 97.79) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +935,7 @@
 	)
 	(hierarchical_label "CLK"
 		(shape input)
-		(at 138.43 69.85 0)
+		(at 171.45 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1336,7 +946,7 @@
 	)
 	(hierarchical_label "DAT0"
 		(shape input)
-		(at 138.43 74.93 0)
+		(at 171.45 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1345,20 +955,9 @@
 		)
 		(uuid "059a805a-0d3c-4f9f-a989-9f7c51339c00")
 	)
-	(hierarchical_label "CMD"
-		(shape input)
-		(at 171.45 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f28b9c8-1192-4730-a10b-b58e3987bcbe")
-	)
 	(hierarchical_label "DAT1"
 		(shape input)
-		(at 138.43 77.47 0)
+		(at 171.45 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1367,20 +966,9 @@
 		)
 		(uuid "34172ce0-4d24-4471-8726-ea8a6a0f9dc1")
 	)
-	(hierarchical_label "DAT2"
-		(shape input)
-		(at 171.45 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "444129c5-ba03-4fd4-8659-b8afc48cc197")
-	)
 	(hierarchical_label "DET"
 		(shape input)
-		(at 85.09 74.93 180)
+		(at 118.11 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1389,42 +977,9 @@
 		)
 		(uuid "50b36461-d129-406f-8671-c5657eaca1d9")
 	)
-	(hierarchical_label "DAT0"
-		(shape input)
-		(at 171.45 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63c1c3d4-ac29-4a46-8af2-5e5fa9d4df4a")
-	)
-	(hierarchical_label "DAT1"
-		(shape input)
-		(at 171.45 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "74df3c51-fda2-4c10-8c7d-2596f098a3d8")
-	)
 	(hierarchical_label "CDDAT3"
 		(shape input)
-		(at 171.45 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b201f4b-b7d9-4551-abed-f5334215f9bb")
-	)
-	(hierarchical_label "CDDAT3"
-		(shape input)
-		(at 85.09 80.01 180)
+		(at 118.11 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1435,7 +990,7 @@
 	)
 	(hierarchical_label "DAT2"
 		(shape input)
-		(at 85.09 77.47 180)
+		(at 118.11 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1446,7 +1001,7 @@
 	)
 	(hierarchical_label "POL"
 		(shape input)
-		(at 85.09 72.39 180)
+		(at 118.11 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,20 +1010,9 @@
 		)
 		(uuid "b8dd74b3-1d97-4d8f-9a43-0afce9aa8123")
 	)
-	(hierarchical_label "CLK"
-		(shape input)
-		(at 171.45 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3cbda62-a18f-4d93-9910-e137aa07d0b5")
-	)
 	(hierarchical_label "CMD"
 		(shape input)
-		(at 138.43 64.77 0)
+		(at 171.45 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1479,15 +1023,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 67.31 270)
+		(at 204.47 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b272323-4cf1-4256-8053-ccca6508e686")
-		(property "Reference" "C11"
-			(at 172.6184 70.231 0)
+		(property "Reference" "C12"
+			(at 205.6384 93.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1040,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 170.307 70.231 0)
+			(at 203.327 93.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1049,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:Capacitor (0805)"
-			(at 167.64 68.2752 0)
+			(at 200.66 91.1352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1058,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
-			(at 171.45 67.31 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1067,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 67.31 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1076,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
-			(at 171.45 67.31 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1085,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 171.45 67.31 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +1102,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1566,7 +1110,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 161.29 67.31 0)
+		(at 194.31 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1574,8 +1118,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32d9018f-5322-4d0e-9f88-962e404387e9")
-		(property "Reference" "#PWR045"
-			(at 161.29 71.12 0)
+		(property "Reference" "#PWR057"
+			(at 194.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1128,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 161.29 62.23 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 67.31 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 67.31 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 161.29 67.31 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1168,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR045")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1632,15 +1176,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 67.31 90)
+		(at 208.28 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3c4e3820-b9b0-4365-898e-b2c3b730f8f8")
-		(property "Reference" "#PWR046"
-			(at 181.61 67.31 0)
+		(property "Reference" "#PWR058"
+			(at 214.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 60.96 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 67.31 0)
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 67.31 0)
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 67.31 0)
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1235,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR046")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1700,7 +1244,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 95.25 67.31 270)
+		(at 128.27 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1708,8 +1252,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45bb84f4-2222-46a3-9f08-91b9f7d99dbb")
-		(property "Reference" "#PWR044"
-			(at 88.9 67.31 0)
+		(property "Reference" "#PWR056"
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 67.3099 90)
+			(at 124.46 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 67.31 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +1280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 67.31 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 67.31 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1303,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR044")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1767,7 +1311,7 @@
 	)
 	(symbol
 		(lib_id "FRANK:MicroSD_Short")
-		(at 95.25 64.77 0)
+		(at 128.27 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1775,8 +1319,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39e072b-9865-414a-bad4-5ae65c4347ad")
-		(property "Reference" "J5"
-			(at 111.76 57.15 0)
+		(property "Reference" "J6"
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1328,7 @@
 			)
 		)
 		(property "Value" "0475710001"
-			(at 111.76 59.69 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1336,7 @@
 			)
 		)
 		(property "Footprint" "FRANK:MicroSD (SMD, short)"
-			(at 124.46 159.69 0)
+			(at 157.48 182.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1346,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/47571-0001.pdf"
-			(at 124.46 259.69 0)
+			(at 157.48 282.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1356,7 @@
 			)
 		)
 		(property "Description" "Memory Card Connectors ASSY FOR TFR HEADER HEADER W/DETECT PIN"
-			(at 95.25 64.77 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1365,7 @@
 			)
 		)
 		(property "Height" "2.3"
-			(at 124.46 459.69 0)
+			(at 157.48 482.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1375,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-47571-0001"
-			(at 124.46 559.69 0)
+			(at 157.48 582.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1385,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/47571-0001?qs=qM7ngqbhX5UTJOg9nqKLJQ%3D%3D"
-			(at 124.46 659.69 0)
+			(at 157.48 682.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1395,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 124.46 759.69 0)
+			(at 157.48 782.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1405,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "47571-0001"
-			(at 124.46 859.69 0)
+			(at 157.48 882.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1415,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005302426366.html"
-			(at 95.25 64.77 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +1465,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1474,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 128.27 72.39 90)
+		(at 161.29 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1938,8 +1482,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bc25bb-6151-427d-9071-a9a874ac7867")
-		(property "Reference" "#PWR048"
-			(at 134.62 72.39 0)
+		(property "Reference" "#PWR060"
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 72.3899 90)
+			(at 165.1 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 72.39 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 72.39 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 72.39 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,172 +1533,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb64ad72-0f49-41b6-a9be-7d239255dc4a")
-		(property "Reference" "#PWR049"
-			(at 165.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e38a0e9-4fc7-4f21-a255-4a22348a1c6a")
-		)
-		(instances
-			(project "minifrank_rm1"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Micro_SD_Card")
-		(at 194.31 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfd949e8-2da7-4fad-9a77-49c9cbc5d0d9")
-		(property "Reference" "J6"
-			(at 194.945 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "104031-0811"
-			(at 194.945 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:MicroSD (SMD, long)"
-			(at 223.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
-			(at 194.31 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro SD Card Socket"
-			(at 194.31 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005004214252441.html"
-			(at 194.31 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ec34ec5-cad6-458e-a443-96c42c16e935")
-		)
-		(pin "2"
-			(uuid "e6436029-9fb8-41b0-9548-0ec46aff7c24")
-		)
-		(pin "3"
-			(uuid "f5e07d59-1bbb-49e0-a86f-05468ac46975")
-		)
-		(pin "4"
-			(uuid "f4a5ee57-3f7b-478b-aa4a-addf6b812ecd")
-		)
-		(pin "5"
-			(uuid "f236111f-bb5d-4abd-a7cd-340669edaff1")
-		)
-		(pin "6"
-			(uuid "36335d52-cccd-4144-afaf-ba1a104138d6")
-		)
-		(pin "7"
-			(uuid "fbacb6b2-f656-4bf1-a42b-67704f8e6089")
-		)
-		(pin "8"
-			(uuid "6e7de12b-446a-47bb-8d5e-e1ab9e66f4ff")
-		)
-		(pin "9"
-			(uuid "300ce790-acf4-4b00-b472-f58f43e46b52")
-		)
-		(instances
-			(project "minifrank_rm1"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "J6")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2163,7 +1542,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 95.25 69.85 270)
+		(at 128.27 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2171,8 +1550,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f5c919-155c-4f11-a373-a9afd9e62bd7")
-		(property "Reference" "#PWR047"
-			(at 88.9 69.85 0)
+		(property "Reference" "#PWR059"
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +1560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 69.8499 90)
+			(at 124.46 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +1569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 69.85 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +1578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 69.85 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +1587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 69.85 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +1601,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR047")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2231,7 +1610,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 95.25 64.77 270)
+		(at 128.27 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2239,8 +1618,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e404351f-a461-4cf2-baee-4fef9296c2d1")
-		(property "Reference" "#PWR043"
-			(at 88.9 64.77 0)
+		(property "Reference" "#PWR055"
+			(at 121.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +1628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 64.7699 90)
+			(at 124.46 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +1637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 64.77 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +1646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 64.77 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +1655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 64.77 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +1669,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR043")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

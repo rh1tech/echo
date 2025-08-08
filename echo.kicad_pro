@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|170657304|80355000|0631ae26-9ca7-4d91-b1e5-974490202c6b|cecdeff6-55c8-4524-852a-f3777667b26e",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|172200000|84300000|ef67f1c8-d127-4895-b5db-df9e4ffc4b63|cecdeff6-55c8-4524-852a-f3777667b26e",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|172200000|92300000|feba170d-11fb-464c-b62d-f842b854021f|cecdeff6-55c8-4524-852a-f3777667b26e",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -262,52 +249,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_not_driven|1536700|876300|52f2ae85-9fa3-40fa-87e3-27f0ae649852|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c703e3e8-9da2-4a1d-9cec-42d7256180fc|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c703e3e8-9da2-4a1d-9cec-42d7256180fc|",
-        ""
-      ],
-      [
-        "pin_not_driven|1574800|965200|52f2ae85-9fa3-40fa-87e3-27f0ae649852|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c703e3e8-9da2-4a1d-9cec-42d7256180fc|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c703e3e8-9da2-4a1d-9cec-42d7256180fc|",
-        ""
-      ],
-      [
-        "pin_to_pin|1257300|749300|1f6d69fd-fe15-4723-9fd9-4d0833ef84f9|f84db3e6-b2ef-492f-bcf2-84edac5fbe80|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f883457e-0c9e-4a1d-9f19-b038d36f033f|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f883457e-0c9e-4a1d-9f19-b038d36f033f|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4ea27ee4-1edc-4e10-ab5a-91b9933087c0",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2120900|279400|13486dca-7e69-4e38-824f-93cf9d170325|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2120900|304800|8cb2abda-b173-4fe2-a306-01539c9b75bb|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2260600|304800|84dfbb85-d9ad-490a-90de-f50bfff40e74|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2349500|419100|af3731ad-fd4d-4199-aee9-17066e42623e|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2501900|558800|13486dca-7e69-4e38-824f-93cf9d170325|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2501900|584200|8cb2abda-b173-4fe2-a306-01539c9b75bb|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2730500|1536700|13486dca-7e69-4e38-824f-93cf9d170325|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2730500|1562100|8cb2abda-b173-4fe2-a306-01539c9b75bb|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -1091,24 +1033,16 @@
       "PS2 MS"
     ],
     [
-      "a27ed13f-fa40-49de-a786-9b8f7712cf33",
-      "USB Multiplexer 2"
-    ],
-    [
       "c703e3e8-9da2-4a1d-9cec-42d7256180fc",
       "USB Hub"
     ],
     [
       "21f6980c-fc10-4480-8dc1-86a15fb6d0bb",
-      "USB Multiplexer 1"
-    ],
-    [
-      "5ab659b6-5cfd-43f0-936c-acd4035c4ca5",
-      "USB A"
+      "USB Multiplexer"
     ]
   ],
   "text_variables": {
     "NAME": "Echo",
-    "VERSION": "1.03"
+    "VERSION": "1.04"
   }
 }

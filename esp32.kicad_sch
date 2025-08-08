@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${NAME}")
-		(date "2025-07-20")
+		(date "2025-08-08")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/rh1tech/echo")
@@ -1649,7 +1649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35633202-3cae-4968-8d01-75116f57e649")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR047"
 			(at 157.48 143.51 0)
 			(effects
 				(font
@@ -1699,7 +1699,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/77c89b3c-77eb-4110-a91f-a0bd1c85adbc"
-					(reference "#PWR035")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1715,7 +1715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55512e68-5bf4-4d2a-8668-efba076e99dd")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR044"
 			(at 139.7 39.37 0)
 			(effects
 				(font
@@ -1765,7 +1765,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/77c89b3c-77eb-4110-a91f-a0bd1c85adbc"
-					(reference "#PWR032")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1780,7 +1780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f2510d5-6600-4a19-b442-92e4b58224d2")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 136.779 58.3184 0)
 			(effects
 				(font
@@ -1861,7 +1861,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/77c89b3c-77eb-4110-a91f-a0bd1c85adbc"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a251bd0-86a5-4c70-ab83-027ea2f0aba8")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 149.479 58.3184 0)
 			(effects
 				(font
@@ -1957,7 +1957,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/77c89b3c-77eb-4110-a91f-a0bd1c85adbc"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1972,7 +1972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cb48888-f4e9-400e-8052-2eabdec00105")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR045"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -2022,7 +2022,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/77c89b3c-77eb-4110-a91f-a0bd1c85adbc"
-					(reference "#PWR033")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2038,7 +2038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3631349-4466-4445-869a-e54b7b0e2a74")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 157.0833 77.47 0)
 			(effects
 				(font
@@ -2176,7 +2176,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/77c89b3c-77eb-4110-a91f-a0bd1c85adbc"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2192,7 +2192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6950ab1-d1bc-4ec2-9ca4-022cd561ddf0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR046"
 			(at 154.94 143.51 0)
 			(effects
 				(font
@@ -2242,7 +2242,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/77c89b3c-77eb-4110-a91f-a0bd1c85adbc"
-					(reference "#PWR034")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
