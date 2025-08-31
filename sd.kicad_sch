@@ -1030,7 +1030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b272323-4cf1-4256-8053-ccca6508e686")
-		(property "Reference" "C12"
+		(property "Reference" "C38"
 			(at 205.6384 93.091 0)
 			(effects
 				(font
@@ -1048,7 +1048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0805)"
+		(property "Footprint" "FRANK:Capacitor (0603)"
 			(at 200.66 91.1352 0)
 			(effects
 				(font
@@ -1102,7 +1102,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "C12")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1118,7 +1118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32d9018f-5322-4d0e-9f88-962e404387e9")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR088"
 			(at 194.31 93.98 0)
 			(effects
 				(font
@@ -1168,7 +1168,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR057")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -1183,7 +1183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c4e3820-b9b0-4365-898e-b2c3b730f8f8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR089"
 			(at 214.63 90.17 0)
 			(effects
 				(font
@@ -1235,7 +1235,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR058")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -1252,7 +1252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45bb84f4-2222-46a3-9f08-91b9f7d99dbb")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR087"
 			(at 121.92 90.17 0)
 			(effects
 				(font
@@ -1303,7 +1303,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR056")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1319,7 +1319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39e072b-9865-414a-bad4-5ae65c4347ad")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -1465,7 +1465,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1482,7 +1482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bc25bb-6151-427d-9071-a9a874ac7867")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR091"
 			(at 167.64 95.25 0)
 			(effects
 				(font
@@ -1533,7 +1533,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR060")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f5c919-155c-4f11-a373-a9afd9e62bd7")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR090"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -1601,7 +1601,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR059")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e404351f-a461-4cf2-baee-4fef9296c2d1")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR086"
 			(at 121.92 87.63 0)
 			(effects
 				(font
@@ -1669,7 +1669,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b68ee207-ff62-4120-93b6-b15e01f03b46"
-					(reference "#PWR055")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

@@ -2789,182 +2789,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT_321"
-			(pin_names
-				(offset 1)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT_321"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_321_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_321_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3386,10 +3210,6 @@
 		(uuid "58083331-07a9-4e8f-89b5-d201fc704791")
 	)
 	(no_connect
-		(at 147.32 44.45)
-		(uuid "68feac46-cff8-4f67-9995-a1fcdc404ae2")
-	)
-	(no_connect
 		(at 110.49 62.23)
 		(uuid "8c37d5e9-9602-4004-83a0-1d59afb9790e")
 	)
@@ -3499,16 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 39.37) (xy 151.13 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243152fb-1029-4d31-9b29-2e1b0eac40ff")
-	)
-	(wire
-		(pts
 			(xy 163.83 120.65) (xy 163.83 123.19)
 		)
 		(stroke
@@ -3569,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 44.45) (xy 137.16 44.45)
+			(xy 127 44.45) (xy 161.29 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3636,16 +3446,6 @@
 			(type default)
 		)
 		(uuid "4f08955d-73f8-48be-b8af-ac429ca609f3")
-	)
-	(wire
-		(pts
-			(xy 151.13 44.45) (xy 161.29 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50440c06-fb3e-4f1d-957b-f77d10a8ab67")
 	)
 	(wire
 		(pts
@@ -3919,16 +3719,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 41.91) (xy 137.16 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d42c7dbe-798e-4e35-bfb1-b4a8e5117e68")
-	)
-	(wire
-		(pts
 			(xy 168.91 128.27) (xy 176.53 128.27)
 		)
 		(stroke
@@ -3936,16 +3726,6 @@
 			(type default)
 		)
 		(uuid "d56b3cb8-56e3-4a20-b1c9-7c41f1dd1932")
-	)
-	(wire
-		(pts
-			(xy 147.32 39.37) (xy 151.13 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6eb6ba3-5c7c-43b0-9f09-0f8660038834")
 	)
 	(wire
 		(pts
@@ -4270,77 +4050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT_321")
-		(at 142.24 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "020a3a58-3c27-4fac-a286-dc115b70e35e")
-		(property "Reference" "S4"
-			(at 142.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power"
-			(at 142.24 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:Switch (MSK12C02)"
-			(at 142.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://parts4laptops.eu/en/microbuttons/3300-microbutton-tact-switch-ts-1233-33x33x15mm-smt-mounting.html"
-			(at 142.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 142.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "82560126-cee7-495d-8a88-640676b1ea5f")
-		)
-		(pin "1"
-			(uuid "94733498-2697-4549-9be3-bbe42353d320")
-		)
-		(pin "3"
-			(uuid "22f8a225-738d-4380-90ba-473c71956d07")
-		)
-		(instances
-			(project "echo"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/4ea27ee4-1edc-4e10-ab5a-91b9933087c0"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 115.57 64.77 90)
@@ -4570,7 +4279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 131.572 152.4 90)
 			(effects
 				(font
@@ -4673,7 +4382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0805)"
+		(property "Footprint" "FRANK:Capacitor (0603)"
 			(at 191.4652 125.73 0)
 			(effects
 				(font
@@ -5149,7 +4858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 134.62 58.928 90)
 			(effects
 				(font
@@ -5242,7 +4951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 129.54 120.65 0)
 			(effects
 				(font
@@ -5345,7 +5054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0805)"
+		(property "Footprint" "FRANK:Capacitor (0603)"
 			(at 205.4352 53.34 0)
 			(effects
 				(font
@@ -5720,7 +5429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0805)"
+		(property "Footprint" "FRANK:Capacitor (0603)"
 			(at 171.1452 54.61 0)
 			(effects
 				(font
@@ -5822,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 191.77 88.138 90)
 			(effects
 				(font
@@ -5923,7 +5632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 113.03 64.77 0)
 			(effects
 				(font
@@ -6421,7 +6130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 113.03 49.53 0)
 			(effects
 				(font
@@ -6814,7 +6523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 134.62 61.468 90)
 			(effects
 				(font
@@ -7041,7 +6750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 151.13 130.048 90)
 			(effects
 				(font
@@ -7135,7 +6844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 151.13 132.588 90)
 			(effects
 				(font
@@ -7368,7 +7077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 115.062 81.28 90)
 			(effects
 				(font
@@ -7469,7 +7178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0805)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 129.54 135.89 0)
 			(effects
 				(font
