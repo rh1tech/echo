@@ -8362,7 +8362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:LED (0805)"
+		(property "Footprint" "FRANK:LED (0603)"
 			(at 252.73 130.81 0)
 			(effects
 				(font
