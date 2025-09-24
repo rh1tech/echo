@@ -988,7 +988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04593f2a-b507-4946-81b7-ddbe2b092a12")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR070"
 			(at 130.81 118.11 0)
 			(effects
 				(font
@@ -1038,11 +1038,11 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/397326d1-5128-45c0-8ac3-92e3c508e8e0"
-					(reference "#PWR0125")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e32d59b7-03d3-4433-81ca-17cc94384711"
-					(reference "#PWR050")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1058,7 +1058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7293f27c-207b-4323-9abf-ad2cae2b5b35")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR069"
 			(at 132.08 93.98 0)
 			(effects
 				(font
@@ -1109,11 +1109,11 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/397326d1-5128-45c0-8ac3-92e3c508e8e0"
-					(reference "#PWR0123")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e32d59b7-03d3-4433-81ca-17cc94384711"
-					(reference "#PWR048")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1221,7 +1221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c225b529-fb8e-44bc-ba5f-eb2f48bbfe87")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR071"
 			(at 167.64 93.98 0)
 			(effects
 				(font
@@ -1272,11 +1272,11 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/397326d1-5128-45c0-8ac3-92e3c508e8e0"
-					(reference "#PWR0124")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e32d59b7-03d3-4433-81ca-17cc94384711"
-					(reference "#PWR049")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1291,7 +1291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe873bba-baa4-4742-bcc5-d85b2e274175")
-		(property "Reference" "C10"
+		(property "Reference" "C24"
 			(at 133.731 102.9716 0)
 			(effects
 				(font
@@ -1363,11 +1363,11 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/397326d1-5128-45c0-8ac3-92e3c508e8e0"
-					(reference "C58")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e32d59b7-03d3-4433-81ca-17cc94384711"
-					(reference "C10")
+					(reference "C24")
 					(unit 1)
 				)
 			)
