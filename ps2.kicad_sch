@@ -1202,7 +1202,7 @@
 		(instances
 			(project "echo"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/397326d1-5128-45c0-8ac3-92e3c508e8e0"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e32d59b7-03d3-4433-81ca-17cc94384711"
